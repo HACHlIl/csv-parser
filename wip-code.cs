@@ -43,7 +43,6 @@ class Program
                 listOfLists.Add(listLines);
             }
 
-            // Exibe o valor do primeiro campo na quarta linha (indexacao comeca em 0)
             if (listOfLists.Count > 3 && listOfLists[3].Count > 0)
             {
                 Console.WriteLine(listOfLists[3][0]);
